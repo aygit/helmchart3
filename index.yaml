@@ -3,7 +3,7 @@ entries:
   wordpress:
   - apiVersion: v1
     appVersion: 5.3.2
-    created: "2020-03-20T11:50:47.701845-04:00"
+    created: "2020-03-20T12:01:51.877906-04:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -28,6 +28,6 @@ entries:
     sources:
     - https://github.com/bitnami/bitnami-docker-wordpress
     urls:
-    - https://github.com/aygit/helmchart3/wordpress-9.0.2.tgz
+    - https://aygit.github.io/helmchart3/wordpress-9.0.2.tgz
     version: 9.0.2
-generated: "2020-03-20T11:50:47.694968-04:00"
+generated: "2020-03-20T12:01:51.872911-04:00"
